@@ -10,7 +10,7 @@
 
 
 MYUSER='dhis'
-SSH='ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDHrgFKeY5j4u3tfm5WD8r1SBUa8VZp5xs0w5cbPZ9PGKVKL9smTdS5gtICqr2WTriTC1Hjla71u8who03Wktypy4yYTFwzNd0lKhcrw9hdwhY9Qmgx7OLGs9n+hTT/w9+hTADGIAeSawtlrt0NMWI9l7PYpicPW2ye2OsvxOy2AB+iOeYOYxAGgPVg/WmnoD60lTCEBMUY6H/KHTe8T+YFy6jcoaq5ELLoc/Wlu83tRUG0X0gtldbY7k6vcXOfTvJ1SB5V5fC2wftHZ6iob3GPb8y4GbkzZZ5UMX53Ci+/lgE0p4gZEM5f8KBKS2qGB3+jzZmkop6X0s6imZeblAkz imported-openssh-key'
+SSH='ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEA3bJZB6JYOToA77zNGBVgVKqH8zcGi+RsW0yt5tLf0NqQm+LnQpsF5Av7WjqMp4S+voOTqA8ATEzStEvv9SHAOM4TUiczFY5T3PrgMhCxjCfUVpFE9P6Fr+9Q1iAZvAdJDWXXcgt1dOoURktiy8Tmyu3YDyQOsKBSjYYhPLxSxErUm5sTpmDmi7D2yLB3KpuIBkRyv5uECQlxmZLInfi54uIPy8nyLMD8BNhyeKu2dIXSzimJbz5c9Kv0wCGMSa9GYx1x6uaeOGQRPVmMWOYkCPa0DTykjTJLTzY7F96L9jvjbB3DAL2PAHRFxIXtyBFjPigFjM2DPUmTTF44jQ9eQQ imported-openssh-key'
 SSHPORT='22'
 HOSTNAME='snigs'
 FQDN='snigs.gouv.bj'
@@ -56,7 +56,7 @@ chown -R $MYUSER.$MYUSER /home/$MYUSER
 
 # Tighten up ssh
 # Disables password authentication
-sed -i 's/#*PasswordAuthentication [a-zA-Z]*/PasswordAuthentication no/' /etc/ssh/sshd_config
+#BEN sed -i 's/#*PasswordAuthentication [a-zA-Z]*/PasswordAuthentication no/' /etc/ssh/sshd_config
 # Disable root login
 sed -i 's/PermitRootLogin [a-zA-Z]*/PermitRootLogin no/' /etc/ssh/sshd_config
 # Change Port
