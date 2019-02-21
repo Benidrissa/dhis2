@@ -13,7 +13,7 @@ MYUSER='dhis'
 SSH='ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAvMej+aVYkRsr4N3YeD1ZhPS+bBcVlXZHus3EYhlxplqs39W94ZzvI2zrFyJIvG1Qtuu460hvrh9GyhXymHN0nBM2yaT+c6CP/pSHjnOfiPfwYKu6H2J/RQ24DJ5z/Tmg8MMWpRZOkRrPIwU+iLbBLcqbm94c7sofQkwHDTjJjyRajDhMlhKFYRMXU5nqc/i7DxvtFCUZSVFQCXfoRmOFD/Qm0LF5osWuZkmflm3PCOxZ31/EzQa/HbmNHKqF2dAY3CwgGExJwBomKsazKKc4arIDva51fCcO7igNiBCCEqEzazk5mVYXMZ+y9Hp/L2azBg2A7ERaa1vxHFwykpi5LQ== rsa-key-20190221'
 SSHPORT='22'
 HOSTNAME='snigs'
-FQDN='snigs-bj.org'
+FQDN='dhis2test.westeurope.cloudapp.azure.com'
 
 # enable firewall
 ufw enable
